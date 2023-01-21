@@ -1,0 +1,13 @@
+
+#hole{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 8.4px 6.4px 3.2px 3.2px 5px; */
+    border-radius: 20px;
+  }
+  #h1-text{
+
+    align-items: center;
+  }
+  .xl\:w-5\/12 {
+    width: 50.666667%;
+  }
