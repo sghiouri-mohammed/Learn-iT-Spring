@@ -6,7 +6,6 @@ import Image3 from '../assets/news/03.jpg'
 
 export default function DashboardInst(){
     return(
-        
         <div>
             <main id="site-main">        
                 <div class="row mr-0">
@@ -51,7 +50,7 @@ export default function DashboardInst(){
                                     <div class="card border-0" >
                                         <img src={Image1} class="card-img-top" alt="image_1"/>
                                         <div class="card-body">
-                                        <h5 class="card-title font-ram"><a>Afficher tous les étudiants</a></h5>
+                                        <h5 class="card-title font-ram"><a href="/StudentsList">Afficher tous les étudiants</a></h5>
                                             
                                         </div>
                                     </div>
@@ -59,17 +58,26 @@ export default function DashboardInst(){
                                 <div class="col-sm-4 my-3">
                                     <div class="card border-0" >
                                         <img src={Image2} class="card-img-top" alt="image_1"/>
-                                        <div class="card-body">
-                                        <h5 class="card-title font-ram"><a>Afficher tous les cours</a></h5>
-                                            
+                                        <div class="card-body d-flex">
+                                            <h5 class="card-title font-ram">
+                                                <a href="/CoursList"> Afficher tous les cours </a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            </h5>  
+                                            <a href="/AddCourse">
+                                                <img className="ml-5" src="https://img.icons8.com/ios/35/null/plus-2-math.png"/>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-4 my-3">
                                     <div class="card border-0" >
                                         <img src={Image3} class="card-img-top" alt="image_2"/>
-                                        <div class="card-body">
-                                            <h5 class="card-title font-ram"><a>Afficher tous les quiz</a></h5>
+                                        <div class="card-body d-flex">
+                                            <h5 class="card-title font-ram">
+                                                <a href="/QuizList">Afficher tous les quiz</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            </h5>
+                                            <a href="/AddQuiz">
+                                                <img className="ml-5" src="https://img.icons8.com/ios/35/null/plus-2-math.png"/>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

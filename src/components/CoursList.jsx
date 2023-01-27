@@ -20,35 +20,21 @@ export default function CoursList(){
                                 <div class="col-sm-4 my-3">
                                     <div class="card border-0" >
                                         <img src={Image2} class="card-img-top" alt="image_1"/>
-                                        <div class="card-body">
-                                        <h5 class="card-title font-ram"> <a> Cours 1 : React</a></h5> 
+                                        <div class="card-body d-flex">
+                                            <div className="mr-5">
+                                                <h5 class="card-title font-ram mr-5"> 
+                                                    <a> Cours 1 : React </a> 
+                                                </h5> 
+                                            </div>
+                                            <div className="ml-5 pl-5">
+                                                <a href="/ModifyCourse">
+                                                    <img src="https://img.icons8.com/external-sbts2018-outline-sbts2018/30/null/external-modify-basic-ui-elements-2.5-sbts2018-outline-sbts2018.png"/>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4 my-3">
-                                    <div class="card border-0" >
-                                        <img src={Image2} class="card-img-top" alt="image_1"/>
-                                        <div class="card-body">
-                                        <h5 class="card-title font-ram"> <a>Cours 2 : JS</a></h5>  
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 my-3">
-                                    <div class="card border-0" >
-                                        <img src={Image2} class="card-img-top" alt="image_2"/>
-                                        <div class="card-body">
-                                            <h5 class="card-title font-ram"><a>Cours 3 : JQuery</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4 my-3">
-                                    <div class="card border-0" >
-                                        <img src={Image2} class="card-img-top" alt="image_2"/>
-                                        <div class="card-body">
-                                            <h5 class="card-title font-ram"> <a> Cours 4 : Bootstrap </a> </h5>
-                                        </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </section>
                     </div>

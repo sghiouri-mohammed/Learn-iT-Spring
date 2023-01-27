@@ -53,7 +53,7 @@ export default function Dashboard(){
                                     <div class="card border-0" >
                                         <img src={Image1} class="card-img-top" alt="image_1"/>
                                         <div class="card-body">
-                                        <h5 class="card-title font-ram"><a>Afficher tous les cours</a></h5>
+                                        <h5 class="card-title font-ram"><a href="/CoursList">Afficher tous les cours</a></h5>
                                         
                                         </div>
                                     </div>
@@ -62,7 +62,7 @@ export default function Dashboard(){
                                     <div class="card border-0" >
                                         <img src={Image2} class="card-img-top" alt="image_2"/>
                                         <div class="card-body">
-                                            <h5 class="card-title font-ram"><a>Afficher tous les quiz disponibles</a></h5>
+                                            <h5 class="card-title font-ram"><a href="/QuizList">Afficher tous les quiz disponibles</a></h5>
                                         </div>
                                     </div>
                                 </div>

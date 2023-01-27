@@ -15,11 +15,11 @@ export default function NavBar()
                             </div>
                             <div class="nabar-nav d-flex flex-column">
                                 <a class="nav-item nav-link text-white-50 font-oswald font-size-16 active" href="/">Dashboard</a>
-                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" link="">Courses</a>
+                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" href="/CoursList">Courses</a>
                                 <a class="nav-item nav-link text-white-50 font-oswald font-size-16" href="/QuizList">Quiz</a>
-                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" link="">Home</a>
-                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" link="">Students</a>
-                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" link="">Logout</a>
+                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" href="/Dashboard">Home</a>
+                                <a class="nav-item nav-link text-white-50 font-;;;[swald font-size-16" href="/StudentsList">Students</a>
+                                <a class="nav-item nav-link text-white-50 font-oswald font-size-16" href="">Logout</a>
                             </div>
                         </nav>
                     </div>
