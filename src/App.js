@@ -14,7 +14,7 @@ import StudentsList from './components/StudentsList';
 import ModifyQuiz from './components/ModifyQuiz';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-
+import Index from './components/Index';
 
 function App() {
   let component 
@@ -24,9 +24,7 @@ function App() {
   switch (window.location.pathname){
 
       case "/":
-        component = <DashboardInst/> 
-        component1= <NavBar/>
-        component2= <Footer/>
+        component = <Index/>
         break
 
       case "/Connexion" :
@@ -38,54 +36,52 @@ function App() {
       case "/QuizList":
         component = <QuizzList/> 
         component1= <NavBar/>
-        component2= <Footer/>
         
         break
 
       case "/Questions" :
         component = <Questions/>
         component1= <NavBar/>
-        component2= <Footer/>
         break
       
       case "/Register":
         component = <Register/>
         break
+
+      case "/Dashboard":
+        component = <Dashboard/> 
+        component1= <NavBar/>
+        component2= <Footer/>
+        break
       
       case "/CoursList":
         component = <CoursList/>
         component1= <NavBar/>
-        component2= <Footer/>
         break
       
       case "/ModifyQuiz":
         component = <ModifyQuiz/>
         component1= <NavBar/>
-        component2= <Footer/>
         break
       
       case "/StudentsList":
         component = <StudentsList/>
         component1= <NavBar/>
-        component2= <Footer/>
         break
       
       case "/AddCourse":
         component = <AddCourse/>
         component1= <NavBar/>
-        component2= <Footer/>
         break
 
         case "/ModifyCourse":
           component = <ModifyCourse/>
           component1= <NavBar/>
-        component2= <Footer/>
           break
 
       case "/AddQuiz":
         component = <AddQuiz/>
         component1= <NavBar/>
-        component2= <Footer/>
         break  
       
         case "/Profile":
@@ -100,7 +96,7 @@ function App() {
         component2= <Footer/>
         break
 
-        default : component = <Dashboard/>
+        default : component = <Index/>
   
       }
 

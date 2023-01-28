@@ -10,7 +10,7 @@ export default function DashboardInst(){
             <main id="site-main">        
                 <div class="row mr-0">
                     <div class="offset-md-2 col-md-10 px-0">
-                        <section class="services px-4 ">
+                        <div class="services px-4 ">
                             <div class="do py-5">
                                 <h5 class="text-uppercase font-oswald font-size-16 text-muted">Welcome back USER</h5>
                                 <h1 class="text-uppercase font-staat font-size-34">DASHBOARD</h1>
@@ -39,9 +39,9 @@ export default function DashboardInst(){
                                 </div>
                                 
                             </div>
-                        </section>
+                        </div>
                     
-                        <section class="news py-5 px-4 bg-light" id="news">
+                        <div class="news py-5 px-4 bg-light" id="news">
                             <div class="py-3">
                                 <h1 class="text-uppercase font-staat font-size-34">Cours</h1>
                             </div>
@@ -82,7 +82,7 @@ export default function DashboardInst(){
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </div>
                     </div>
                 </div>
             </main>
