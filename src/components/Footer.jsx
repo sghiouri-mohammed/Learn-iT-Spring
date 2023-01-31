@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Footer(){
+export default function div(){
     return (
         <div>
-            <footer id="footer" class="pt-5 px-3 b-0">
+            <div id="div" class="pt-5 px-3 b-0">
                 <div id="profile">
                    
                     <div class="row">
@@ -19,7 +19,7 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-            </footer>
+            </div>
         </div>
     );
 }
